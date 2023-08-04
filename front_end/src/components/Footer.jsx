@@ -13,7 +13,7 @@ const Footer = () => {
                     icon
                 </div>
                 <div className='w-25'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit aamet consectetur adipisicing elit.
                     Distinctio veritatis, itaque harum iure officia, provident
                     vero hic facere libero blanditiis doloribus nihil ipsam
                     deserunt, ex explicabo sunt dolorem qui magnam.
