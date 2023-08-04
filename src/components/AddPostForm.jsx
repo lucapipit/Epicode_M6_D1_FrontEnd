@@ -8,6 +8,7 @@ import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import "../App.css";
 import { addCategory, clearCategories } from "../states/postStates"
+import { Spinner } from 'react-bootstrap';
 
 const AddPostForm = () => {
     const [file, setFile] = useState(null);
