@@ -44,7 +44,7 @@ const LogInForm = () => {
 
 
     return (
-        <div className='myLogInForm d-flex justify-content-center align-items-center' style={{background: `url(${bgImg})`}}>
+        <div className='myLogInForm d-flex justify-content-center align-items-center' style={{background: `url("https://img.freepik.com/free-vector/cyber-lock-security-padlock-abstract-wire-low-poly-polygonal-wire-frame-mesh-looks-like-constellation-dark-blue-night-sky-with-dots-stars-illustration-background_587448-642.jpg?w=1800&t=st=1691405553~exp=1691406153~hmac=5fe447c12c3822eff3f60fbb9d928bb64bed952834a5ea863066a5187b21ac19")`}}>
             <div className='d-flex justify-content-center align-items-center shadow'>
                 <section className='text-center'>
                     <h3 className='fw-light'>Log In</h3>
