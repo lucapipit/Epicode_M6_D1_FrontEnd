@@ -28,7 +28,7 @@ const LogInForm = () => {
             const redirectionSuccess = ()=>{//handle success login function: spinner and redirection.
                 setLoginSuccess(true); 
                 setLoginFailed(false);
-                setTimeout(()=>{window.location.replace('http://localhost:3000/')}, 2000)
+                setTimeout(()=>{window.location.replace('https://medicalblog.netlify.app/')}, 2000)
             };
             res.token?redirectionSuccess():setLoginFailed(true);//if token exists, successFunction i executed, else setLoginFailed is setted on true
 
